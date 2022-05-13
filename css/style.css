@@ -9,6 +9,7 @@ VERSION:	Versoin Number
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import "swiper-bundle.min.css";
 @font-face {
   font-family: 'futura-bold';
   src: url("../fonts/Futura-Bold.woff") format("woff");
@@ -625,6 +626,12 @@ link:focus,
   }
 }
 
+@media (min-width: 800px) {
+  .social {
+    padding-left: 100px;
+  }
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -1007,3 +1014,7 @@ link:focus,
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+.img-brand img {
+  display: block;
+  transition: all 300ms ease;
+}
