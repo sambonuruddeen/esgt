@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>ESGT University | Living in Benin Repiblic</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong>+299 6111 44 60</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">VERIFY</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">OMBOARDING</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">ADMISSIONS</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                ACADEMICS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="undergraduate.html">Undergraduate</a>
+                <a class="dropdown-item" href="graduate.html">Graduate</a>
+                <a class="dropdown-item" href="entry.html">Entry Requirement</a>
+                <a class="dropdown-item" href="#">Fees Structure</a>
+                <a class="dropdown-item" href="#">Scholarship</a>
+              </div>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="#">SCHOLARSHIP</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                PORTAL
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Admission</a>
+                <a class="dropdown-item" href="#">Registration</a>
+                <a class="dropdown-item" href="#">Onboarding</a>
+                <a class="dropdown-item" href="#">Dashboard</a>
+              </div>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+                  <li class="list-inline-item text-white h3 font-secondary nasted">Interesting Facts About Benin</li>
+        </ul>
+        <p class="text-lighten">Benin is a country of great historical heritage, a bastion of democracy and a great promise 
+          to a brighter future. There is more to learn from Benin than we could afford to condense into this small piece of article. 
+          The best way to experience and learn Benin is to pay it homage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- blog details -->
+<section class="section-sm bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <img src="images/blog/blog-single.jpg" alt="blog-thumb" class="img-fluid w-100">
+      </div>
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">Post:</span>Afrikanza</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">August 28, 2021</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-book mr-2"></i>Read 3254</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-share mr-2"></i>568</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><a class="text-light" href="#"><i class="ti-comments mr-2"></i>589</a></li>
+        </ul>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+      <!-- blog contect -->
+      <div class="col-12 mb-5">
+        <h2>Facts About Culture, Geography, and History of Benin </h2>
+        <p>Benin is a West African country bordering Nigeria to the East, Togo to the West, Burkina Faso, and Niger 
+          to the North and Atlantic Ocean to the South. There is a lot to learn from this small country that still 
+          retains much of its authentic culture and tradition. The 12 interesting facts in this article will help you
+           uncover this magnificent land and probably get inspired to visit it to learn more..</p>
+
+        <h3 class="mb-4">8. The country is famous the world over for carved wood masks.</h3>
+        <p>Benin woodcarvers are well known. Their work is extremely authentic. It is a tradition 
+          handed over from one generation to another spanning several centuries. Benin woodcarvings 
+          are sold on the global market, more so in Europe and North America and fetch good prices. 
+          Apart from woodcarvings, Benin is also known for its great sculpture work based on ivory, 
+          bronze, iron, and other metals. You can order for your own custom-made wooden mask souvenir 
+          while on a trip to Benin. This is highly affordable as opposed to buying it on the international market.</p>
+
+        <h3 class="mb-4">7. There is at least one open-air market in every town of the country</h3>
+        <p>The open-air market is a common feature in African towns and centers. Benin is no exception. However, 
+          open-air markets in Benin have a rich variety of items and services including the woodcarvings, sculptures,
+           ornaments, traditional instruments, garments, voodoo fetishes and traditional entertainment. The Dantokpa Market 
+           abbreviated simply as ‘Topka”, is West Africa’s largest international open-air market. It is located on the banks 
+           of Nokoué Lake in Cotonou and attracts customers from neighboring countries. It is not just a market for goods and 
+           services but also of traditions and cultures. It is a unique blend of commerce, tradition, and culture in one place.</p>
+
+          <h3 class="mb-4">6. Benin is home to Fulani herders who move their livestock over long distances in search of grass</h3>
+       <p>Fulani is the world’s largest and most widespread nomadic pastoralist community. The Fulani people are estimated to be about
+          25 million in total. However, they are found in an expansive land larger than entire Western Europe - spanning from Western Sudan 
+          to the Atlantic Ocean. They are found in 17 countries of West and Central Africa. Fulani people are predominantly Muslim and 
+          although some have become agrarian, a significant proportion of them remain nomadic pastoralists. </p>
+
+          <h3 class="mb-4">5. The red color on its flag symbolizes courage, yellow stands for wealth, and green symbolizes hope and revival</h3>
+       <p>Benin gained independence on 1st August 1960 from France and became the Republic of Benin. It was previously known as Dahomey, a name 
+         of the 15th Century kingdom that occupied the territory. Its current flag was adopted on 16 November 1959 and raised on Independence Day. 
+         It was abandoned in 1975 by the Marxist regime, which took power through a military coup and re-introduced in 1990 upon Benin becoming a multiparty democracy. </p>
+
+         <h3 class="mb-4">4. The W-Arly-Pendjari in Benin harbors the largest remaining population of lions in West Africa.</h3>
+       <p>Active human activity has meant that lions have become extinct in most parts of West Africa as the grasslands become 
+         depleted by overgrazing and cultivation. Pendjari National Park has remained one of the few sanctuaries for not only
+          lions but also elephants, which became victims of the infamous ivory trade. Pendjari National Park is a place where you 
+          can easily get to see most of the big cats (lions, Cheetahs, Leopards) and big herbivores (mainly elephants) on your tour of West Africa.</p>
+
+        <h3 class="mb-4">3. The capital of Benin—Porto Novo—was developed as a port for the slave trade.</h3>
+              <p>Formerly known as Ajase, the capital of the Yoruba’s State of Popo, Porto Novo is an inlet in
+                 the Gulf of Guinea infamous for its role as a slave port. It gained its current name from the 
+                 Portuguese who were the established slave merchants. It currently has a population of about 250,000 
+                 people. Porto Novo has various museums where you can visit and learn about African ancestry, 
+                 historical dynasties, the slave trade, and the post-slavery return of the Afro-Brazilians.</p>
+
+        <h3 class="mb-4">2. Benin was the first country in the 1990s to make the transition from a dictatorship to a multiparty democracy</h3>
+                <p>Benin experienced a few non-violent coups in its post-independence history, with Marxist dictatorial rule lasting between 1975 
+                  and 1990. The first multiparty elections marked a peaceful transition from military rule to civilian rule with the military 
+                  incumbent (Mathieu Kerekou) conceding defeat.</p>
+
+        <h3 class="mb-4">Thanks for your interest to study with us.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                    laudantium, totam rem aperiam, </p>
+
+                    <h3 class="mb-4">1. Benin is named after the body of water on which it lies – the ‘Bight of Benin’</h3>
+                    <p>Benin, even after independence, continued to use Dahomey as its official name. It is only 15 years later 
+                      that the name officially switched from Dahomey to Benin. This is because the Kingdom of Dahomey was ethnic 
+                      and represented just a small section of Benin landmass and society. Thus, the name Benin was adopted as an 
+                      unbiased representation of the entire country. Bight of Benin is a crescent-shaped bay that stretches 640 
+                      kilometers covering the area between the Nun outlet of the Niger River (Nigeria) and Cape St. Paul (Ghana). 
+                      It has plenty of scenic pristine beaches that serves as a great tourist attraction.
+
+                    </p>
+      </div>
+      <!-- comment box -->
+      
+    </div>
+  </div>
+</section>
+<!-- /blog details -->
+
+
+<!-- footer -->
+<footer>
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Enface Interpol, Abbatoir Cotonou, Benin Republic</li>
+            <li class="mb-2">+229 6802 65 73</li>
+            <li class="mb-2">+229 6111 44 60</li>
+            <li class="mb-2">info@esgtuniversity.com</li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">ACADEMICS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">Study at ESGT</a></li>
+            <li class="mb-3"><a class="text-color" href="undergraduate.html">Undergraduate</a></li>
+            <li class="mb-3"><a class="text-color" href="graduate.html">Graduate</a></li>
+            <li class="mb-3"><a class="text-color" href="entry.html">Entry Requirement</a></li>
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">PORTAL</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#">Admission</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Registration</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Omboarding</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Fees Structure</a></li>
+          </ul>
+        </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">Copyright
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            © ESGT University</p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a></li>
+                        <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="www.instagran.com/officialesgtuniversity"><i class="ti-instagram text-primary"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
