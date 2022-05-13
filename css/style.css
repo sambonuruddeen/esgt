@@ -167,8 +167,8 @@ h6, .h6 {
 }
 
 .btn-primary:active {
-  background: #075327 !important;
-  color: #08491c;
+  background: #fff !important;
+  color: #075327;
 }
 
 .btn-primary:active::before {
@@ -176,8 +176,8 @@ h6, .h6 {
 }
 
 .btn-primary:hover {
-  background: #38440e;
-  color: #a8d30b;
+  background: #fff;
+  color: #0c742b;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -217,12 +217,12 @@ h6, .h6 {
 }
 
 .btn-primary-outline::before {
-  background: #fff;
+  background: #ffbc3b;
 }
 
 .btn-primary-outline:hover {
   background: #ffbc3b;
-  color: #ffbc3b;
+  color: #fff;
 }
 
 .btn-primary-outline:active {
@@ -252,7 +252,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #0c742b;
+  background-color: #fff;
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -988,7 +988,7 @@ link:focus,
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 275px;
+  padding-top: 65px;
 }
 
 /* /footer */
