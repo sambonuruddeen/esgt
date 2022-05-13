@@ -1016,5 +1016,6 @@ link:focus,
 /*# sourceMappingURL=maps/style.css.map */
 .img-brand img {
   display: block;
+  min-width: 200px;
   transition: all 300ms ease;
 }
