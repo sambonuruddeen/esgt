@@ -28,7 +28,10 @@
 
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
 
 </head>
 
@@ -56,9 +59,9 @@
         </div>
         <div class="col-lg-8 text-center text-lg-right">
           <ul class="list-inline">
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">VERIFY</a></li>
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">OMBOARDING</a></li>
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">ADMISSIONS</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="http://verify.esgtuniversity.com">VERIFY</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="http://onboard.esgtuniversity.com">ONBOARDING</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="http://admission.esgtuniversity.com">ADMISSIONS</a></li>
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
           </ul>
@@ -70,7 +73,7 @@
   <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -78,7 +81,7 @@
 
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item @@about">
@@ -93,7 +96,7 @@
                 <a class="dropdown-item" href="undergraduate.html">Undergraduate</a>
                 <a class="dropdown-item" href="graduate.html">Graduate</a>
                 <a class="dropdown-item" href="entry.html">Entry Requirement</a>
-                <a class="dropdown-item" href="#">Fees Structure</a>
+                <a class="dropdown-item" href="ESGT_Fees.pdf" target="_blank">Fees Structure</a>
                 <a class="dropdown-item" href="#">Scholarship</a>
               </div>
             </li>
@@ -106,13 +109,13 @@
                 PORTAL
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Admission</a>
-                <a class="dropdown-item" href="#">Registration</a>
-                <a class="dropdown-item" href="#">Onboarding</a>
-                <a class="dropdown-item" href="#">Dashboard</a>
+                <a class="dropdown-item" href="http://admission.esgtuniversity.com">Admission</a>
+                <a class="dropdown-item" href="http://portal.esgtuniversity.com">Registration</a>
+                <a class="dropdown-item" href="http://onboard.esgtuniversity.com">Onboarding</a>
+                <a class="dropdown-item" href="http://portal.esgtuniversity.com">Dashboard</a>
               </div>
             </li>
-            <li class="nav-item @@contact">
+            <li class="nav-item active @@contact">
               <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
           </ul>
@@ -212,7 +215,7 @@
     </div>
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="#">
+        <form action="contact.php" method="post">
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
           <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
@@ -221,22 +224,18 @@
         </form>
       </div>
       <div class="col-lg-5">
-        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt. Dolore, labore. Accusamus nulla sed cum aliquid exercitationem debitis error harum porro maxime quo iusto aliquam dicta modi earum fugiat, vel possimus commodi, deleniti et veniam, fuga ipsum praesentium. Odit unde optio nulla ipsum quae obcaecati! Quod esse natus quibusdam asperiores quam vel, tempore itaque architecto ducimus expedita</p>
-        <a href="tel:+8802057843248" class="text-color h5 d-block">+299 6111 44 60</a>
-        <a href="mailto:yourmail@email.com" class="mb-5 text-color h5 d-block">info@esgtuniversity.com</a>
-        <p>Enface Interpol, Abbatoir Cotonou, Benin Republic</p>
+        <p class="mb-5">
+          <iframe src="https://google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.2256954772038!2d2.485832650317244!3d6.364830495371664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103cab5c159d87e1%3A0x3f08c35ddebbf880!2sESGT%20BENIN%20UNIVERSITY%2C%20cotonou%2C%20benin!5e0!3m2!1sen!2sng!4v1652424266320!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+        <a href="tel:+29961114460" class="text-color h5 d-block">Phone: +299 6111 44 60</a>
+        <a href="mailto:info@esgtuniversity.com" class="text-color h5 d-block">Mail: info@esgtuniversity.com</a>
+        <a class="text-color h5 d-block">Address: Enface Interpol, Abbatoir Cotonou, Benin Republic</a>
       </div>
     </div>
   </div>
 </section>
 <!-- /contact -->
 
-<!-- gmap -->
-<section class="section pt-0">
-  <!-- Google Map -->
-  <div id="map_canvas" data-latitude="51.507351" data-longitude="-0.127758"></div>
-</section>
-<!-- /gmap -->
 
 <!-- footer -->
 <footer>
@@ -244,7 +243,7 @@
   <div class="footer bg-footer section border-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+        <div class="col-lg-5 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
           <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
           <ul class="list-unstyled">
@@ -253,9 +252,11 @@
             <li class="mb-2">+229 6111 44 60</li>
             <li class="mb-2">info@esgtuniversity.com</li>
           </ul>
+
+          
         </div>
         <!-- company -->
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5">ACADEMICS</h4>
           <ul class="list-unstyled">
             <li class="mb-3"><a class="text-color" href="about.html">Study at ESGT</a></li>
@@ -265,35 +266,35 @@
           </ul>
         </div>
         <!-- links -->
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5">PORTAL</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="#">Admission</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Registration</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Omboarding</a></li>
-            <li class="mb-3"><a class="text-color" href="#">Fees Structure</a></li>
+            <li class="mb-3"><a class="text-color" href="http://admission.esgtuniversity.com">Admission</a></li>
+            <li class="mb-3"><a class="text-color" href="http://portal.esgtuniversity.com">Registration</a></li>
+            <li class="mb-3"><a class="text-color" href="http://onboard.esgtuniversity.com">Onboarding</a></li>
+            <li class="mb-3"><a class="text-color" href="ESGT_Fees.pdf" target="_blank">Fees Structure</a></li>
           </ul>
         </div>
   <!-- copyright -->
-  <div class="copyright py-4 bg-footer">
+  
     <div class="container">
       <div class="row">
-        <div class="col-sm-7 text-sm-left text-center">
-          <p class="mb-0">Copyright
+        <div class="col-sm-7 text-sm-left ">
+          <p class="mb-0">&copy; 
             <script>
               var CurrentYear = new Date().getFullYear()
               document.write(CurrentYear)
-            </script> 
-            © ESGT University</p>
+            </script> ESGT University
+             </p>
         </div>
-        <div class="col-sm-5 text-sm-right text-center">
+        <div class="col-sm-5 text-sm-left social">
           <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a></li>
-                        <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="www.instagran.com/officialesgtuniversity"><i class="ti-instagram text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary" target="_blank"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary" target="_blank"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="http://instagran.com/officialesgtuniversity" target="_blank"><i class="ti-instagram text-primary"></i></a></li>
           </ul>
         </div>
-      </div>
+      
     </div>
   </div>
 </footer>
